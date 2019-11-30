@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+}
+body{
+
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    }
+
+li{
+    list-style: none;
+}
+header{
+    background: url(../imeges/banner.jpg);
+    background-repeat: no-repeat;
+    min-height: 600px;
+    background-size: cover;
+    background-position: left;
+    background-color: #4b76a796;
+    background-blend-mode: multiply;
+    padding-top: 20px;
+    position: relative;
+}
+.container{}
+.logo{
+    color: #fff;
+    text-transform: uppercase;
+    flex-basis: 20%;
+    max-width: 20%;
+}
+.logo h1{font-size: 20px;}
+.logo h1 span{
+    font-weight: 100;
+    display: block;
+    font-size: 17px;
+}
+
+.nav{
+    flex-basis: 80%;
+    max-width: 80%;
+}
+.nav ul{
+    justify-content: flex-end;
+}
+.nav ul li{}
+.nav ul li a{
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    transition: all 0.4s cubic-bezier(0.25, 0.1, 0.07, 1.08);
+}
+.nav ul li a:hover{
+    border: 2px solid;
+}
+
+.nav ul li:last-child a{
+    border: 2px solid
+}
+
+
+.banner-content{
+    color: #fff;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 50%;
+    right: 0;
+    text-align: center;
+    width: 100%;
+    -moz-transform: translateY(50px);
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    background-attachment: fixed;
+}
+.banner-content h6{
+    font-size: 20px;
+    font-style: italic;
+}
+.banner-content span{
+    width: 100px;
+    height: 5px;
+    background: #FB2056;
+    display: block;
+    margin: 10px auto 5px;
+}
+.banner-content h1{
+    font-size: 3em;
+    text-transform: uppercase;
+}
+.banner-content a{}
+.more{
+    background: #FB2056;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    display: block;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+
+
+.testimonial-section{
+    background: #F4F5F9;
+    padding: 50px 0;
+    text-align: center;
+    color: #8C949C;
+}
+
+.testimonial-section .container{
+    position: relative;
+}
+.testimonial-section img{
+    position: absolute;
+    right: 100%;
+    bottom: -50%;
+}
+.testimonial-section h3{
+    font-size:  22px;
+    font-weight: 100;
+    font-style: italic;
+}
+.testimonial-section h2{
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+
+
+.event-section{
+    padding: 100px 0;
+}
+.heading{
+    text-align: center;
+    padding: 50px;
+}
+.heading h1{
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.events{flex-basis: 50%;max-width: 50%;padding: 30px;text-align: center;}
+.events img{
+    max-width: 100%;
+    display: block;
+    border-radius: 10px;
+    /* border-bottom: 10px solid #DCE6E8; */
+    /* border-right: 10px solid #DCE6E8; */
+    box-shadow: 13px 13px 0px -3px #DCE6E8;
+}
+.events h3{
+    margin: 20px 0 5px;
+    font-size: 26px;
+    font-weight: 100;
+    font-style: italic;
+}
+.events p{
+    color: #8C949C;
+}
+.events a{
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30px;
+    color: #FB2056;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.learn-more{}
+.heading span{
+    width: 100px;
+    height: 3px;
+    background: #FB2056;
+    display: block;
+    margin: 10px auto 5px;
+}
+
+
+
+
+.explore-section{
+    background: url(../imeges/mountain-1246297_1920.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    background-color: #636566;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+}
+
+.explore-section .flex{
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.explore-content{
+    color: #fff;
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.explore-content h1{
+    text-transform: uppercase;
+    font-size: 3em;
+}
+.explore-content span{
+    width: 80px;
+    height: 3px;
+    background: #FB2056;
+    display: block;
+    margin: 20px 0;
+    }
+.explore-content p{
+    text-transform: capitalize;
+    font-size: 19px;
+}
+.explore-content a{
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 14px;
+    }
